@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* <ul>
+* Android Tutorial, An <strong>Android2EE</strong>'s project.</br>
+* Produced by <strong>Dr. Mathias SEGUY</strong> with the smart contribution of <strong>Julien PAPUT</strong>.</br>
+* Delivered by <strong>http://android2ee.com/</strong></br>
+* Belongs to <strong>Mathias Seguy</strong></br>
+* ****************************************************************************************************************</br>
+* This code is free for any usage but can't be distribute.</br>
+* The distribution is reserved to the site <strong>http://android2ee.com</strong>.</br>
+* The intelectual property belongs to <strong>Mathias Seguy</strong>.</br>
+* <em>http://mathias-seguy.developpez.com/</em></br>
+* </br>
+* For any information (Advice, Expertise, J2EE or Android Training, Rates, Business):</br>
+* <em>mathias.seguy.it@gmail.com</em></br>
+* *****************************************************************************************************************</br>
+* Ce code est libre de toute utilisation mais n'est pas distribuable.</br>
+* Sa distribution est reservée au site <strong>http://android2ee.com</strong>.</br>
+* Sa propriété intellectuelle appartient à <strong>Mathias Séguy</strong>.</br>
+* <em>http://mathias-seguy.developpez.com/</em></br>
+* </br>
+* Pour tous renseignements (Conseil, Expertise, Formations J2EE ou Android, Prestations, Forfaits):</br>
+* <em>mathias.seguy.it@gmail.com</em></br>
+* *****************************************************************************************************************</br>
+* Merci à vous d'avoir confiance en Android2EE les Ebooks de programmation Android.
+* N'hésitez pas à nous suivre sur twitter: http://fr.twitter.com/#!/android2ee
+* N'hésitez pas à suivre le blog Android2ee sur Developpez.com : http://blog.developpez.com/android2ee-mathias-seguy/
+* *****************************************************************************************************************</br>
+* com.android2ee.android.tuto</br>
+* 25 mars 2011</br>
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="2"
+        android:title="item2_no_icon"
+        android:icon="@drawable/ic_android2ee_blc"
+        android:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_android2ee_bleu"
+        android:orderInCategory="3"
+        android:title="Item3_icon"
+        android:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/item4"
+        android:enabled="false"
+        android:orderInCategory="4"
+        android:title="item4_disable"/>
+
+    <group
+        android:id="@+id/itemGroup1"
+        android:menuCategory="secondary"
+        android:visible="true" >
+
+        <item
+            android:id="@+id/itemGroup1_item1"
+            android:orderInCategory="0"
+            android:title="item 1.1"/>
+
+        <item
+            android:id="@+id/itemGroup1_item2"
+            android:orderInCategory="1"
+            android:title="item1.2"/>
+    </group>
+
+    <item
+        android:id="@+id/submenu1"
+        android:title="submenu">
+
+        <menu >
+
+            <item
+                android:id="@+id/submenu_item1"
+                android:alphabeticShortcut="s"
+                android:title="Item_s1_shown"
+                android:visible="true"/>
+            <item
+                android:id="@+id/submenu_item2"
+                android:alphabeticShortcut="h"
+                android:title="Item_s2_shown"
+                android:visible="true"/>
+             <item
+                android:id="@+id/submenu_item3"
+                android:alphabeticShortcut="k"
+                android:title="Item_s3_hidden"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/ic_android2ee_bleu"
+        android:id="@+id/chocolate"
+        android:title="@string/chocolate"/>
+
+    <item
+        android:id="@+id/television"
+        android:title="@string/television"/>
+
+    <item
+        android:id="@+id/internet"
+        android:title="@string/internet"/>
+
+    <item
+        android:id="@+id/nicotine"
+        android:title="@string/nicotine"/>
+
+    <item
+        android:id="@+id/hug"
+        android:title="@string/hug"/>
+
+    <item
+        android:id="@+id/santa"
+        android:title="@string/santa"/>
+
+</menu>
+<!-- <menu xmlns:android="http://schemas.android.com/apk/res/android" > -->
+
+<!--     <item -->
+<!--         android:id="@+id/chocolate" -->
+<!--         android:title="@string/chocolate"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/television" -->
+<!--         android:title="@string/television"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/internet" -->
+<!--         android:title="@string/internet"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/nicotine" -->
+<!--         android:title="@string/nicotine"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/hug" -->
+<!--         android:title="@string/hug"/> -->
+
+<!--     <item -->
+<!--         android:id="@+id/santa" -->
+<!--         android:title="@string/santa"/> -->
+
+<!--     </menu> -->
